@@ -28,5 +28,5 @@ yumrepo_ignore_repos: []
 yumrepo_finish: false
 
 # Only apply this role to minimum version
-minimum_major_version: "{{ ansible_lsb.major_release }}"
+minimum_major_version: "{{ ansible_distribution_major_release }}"
 
